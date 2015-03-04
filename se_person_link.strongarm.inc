@@ -96,13 +96,13 @@ function se_person_link_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '4',
-        ),
-        'path' => array(
           'weight' => '5',
         ),
-        'redirect' => array(
+        'path' => array(
           'weight' => '6',
+        ),
+        'redirect' => array(
+          'weight' => '7',
         ),
       ),
       'display' => array(),
